@@ -1,0 +1,32 @@
+
+#Smile Detector
+
+A computer vision project using OpenCV to detect faces, smiles, and eyes in real-time video.
+
+Dependencies:
+
+- OpenCV (cv2)
+- Pre-trained face, smile, and eye detection data (haarcascade_frontalface_default.xml, haarcascade_smile.xml, haarcascade_eye.xml)
+
+Usage:
+
+1. Install OpenCV and import the necessary dependencies.
+2. Place the haarcascade files in the same directory as the script.
+3. Run the script using Python (e.g., python (link unavailable)).
+4. The script will detect faces, smiles, and eyes in the video stream from the webcam.
+
+Output:
+
+- Detected faces are highlighted in green rectangles.
+- Detected smiles are highlighted in pink rectangles.
+- Detected eyes are highlighted in white rectangles.
+- A "Smiling" label is displayed above the face when a smile is detected.
+
+Key Bindings:
+
+- Press 'Q' or 'q' to quit the program.
+
+Note:
+
+- Adjust the detection parameters as needed for optimal performance.
+- The script uses pre-trained models, but you can train your own models for better accuracy.

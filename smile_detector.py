@@ -66,32 +66,4 @@ webcam.release()
 cv2.destroyAllWindows()
 
 
-
-#detect faces
-# face_coordinates = face_detector.detectMultiScale(frame_grayscale)
-
-# print(face_coordinates)
-
-#draw a rectangles around the image
-
-# cv2.rectangle(img, (100, 85), (100 + 181, 85 + 181), (0, 255, 0), 2)
-
-# for (x, y, w, h) in face_coordinates:
-    # cv2.rectangle(img, (x, y), (x + w, y + h), (randrange(128,256), randrange(256), randrange(256)), 2)
-
-#display image
-
-
-# (x, y, w, h) = face_coordinates [0]
-
-
-
-
-
-
-
-# cv2.imshow('Yusuf Face Detector', frame_grayscale)
-# cv2.imshow('Yusuf Face Detector', img)
-# cv2.waitKey()
- 
 print("code completed!!!")
